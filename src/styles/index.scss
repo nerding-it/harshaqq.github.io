@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+
+* {
+  font-family: "Philosopher", sans-serif;
+}
+
+
+:root {
+  --primary: #344164;
+  --secondary: #27314c;
+  --success: #1b73ba;
+  --info: #41435a;
+  --warning: #20263c;
+  --danger: #2cd4bd;
+  --light: #f8f9fa;
+  --dark: #d2d0d5;
+}
+
+html, body {
+  height: 100%;
+}
+
+/* $spacer: 1rem;
+   $enable-rounded: false;
+   $enable-shadows: true;
+   $enable-gradients: true;
+   $enable-transitions: false;
+   $enable-hover-media-query: false;
+   $enable-grid-classes: true;
+   $enable-caret: false;
+   $enable-print-styles: true; */
+
+@import "~bootstrap/scss/bootstrap";
