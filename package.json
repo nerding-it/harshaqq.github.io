@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --watch --hot --colors -d --port 9000"
+    "start": "webpack-dev-server --inline --watch --hot --colors -d --port 9000",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",

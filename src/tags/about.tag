@@ -62,6 +62,7 @@ import { EVENT_GET_EXP, EVENT_GOT_EXP } from '../constants'
       <p> { item.duration } </p>
       <p>
 	{ item.organization }
+	<span> { item.role } </span>
 	<span> { item.content } </span>
       </p>
     </li>

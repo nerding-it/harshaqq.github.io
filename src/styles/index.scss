@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Philosopher');
+/* @import url('https://fonts.googleapis.com/css?family=Philosopher'); */
 
 * {
-  font-family: "Philosopher", sans-serif;
+  font-family: "Inconsolata", serif;
 }
 
 
@@ -18,6 +18,10 @@
 
 html, body {
   height: 100%;
+}
+
+body {
+  overflow: hidden
 }
 
 /* $spacer: 1rem;

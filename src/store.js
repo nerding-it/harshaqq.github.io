@@ -1,8 +1,12 @@
 import dispatcher from './dispatcher'
 
-import { EVENT_GET_EXP, EVENT_GOT_EXP, EVENT_ROUTE } from './constants'
+import { EVENT_GET_EXP,
+	 EVENT_GOT_EXP,
+	 EVENT_ROUTE,
+	 EVENT_GET_SUMMARY,
+	 EVENT_GOT_SUMMARY } from './constants'
 
-import { getExp } from './utils'
+import { getExp, getSummary } from './utils'
 import $ from 'jquery'
 
 /* 
@@ -14,6 +18,7 @@ class Store {
   constructor() {
     dispatcher.on(EVENT_GET_EXP, this.getexp.bind(this))
     dispatcher.on(EVENT_ROUTE, this.onroute.bind(this))
+    dispatcher.on(EVENT_GET_SUMMARY, this.getsummary.bind(this))
   }
 
   /* 
@@ -25,6 +30,10 @@ class Store {
     dispatcher.trigger(EVENT_GOT_EXP, getExp())
   }
 
+  getsummary() {
+    dispatcher.trigger(EVENT_GOT_SUMMARY, getSummary())
+  }  
+
   onroute(target) {
     $('html, body').animate({
       scrollTop: $(target).offset().top
@@ -32,6 +41,8 @@ class Store {
       window.location.hash = target
     })
   }
+
+  
   
 }
 
