@@ -3,22 +3,30 @@ function getExp() {
   let _exp = [
     {
       id: 1,
-      duration: '10/2015-10/2018',
-      organization: 'Accenture Solutions Pvt Ltd',
+      duration: '11/2018-Present',
+      organization: 'Wipro Ltd.',
       address: '',
-      role: 'Senior Analyst',
+      role: 'Frontend Developer',
       content: 'This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information'
-    },
+    },    
     {
       id: 2,
-      duration: '07/2012-10/2015',
-      organization: 'Axiom Consulting Pvt Ltd',
+      duration: '10/2015-10/2018',
+      organization: 'Accenture Solutions Pvt. Ltd.',
       address: '',
-      role: 'Project Engineer',
+      role: 'Fullstack Developer',
       content: 'This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information'
     },
     {
       id: 3,
+      duration: '07/2012-10/2015',
+      organization: 'Axiom Consulting Pvt Ltd',
+      address: '',
+      role: 'Software Engineer',
+      content: 'This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information'
+    },
+    {
+      id: 4,
       duration: '07/2011-07/2012',
       organization: 'DELOPT Pvt Ltd',
       address: '',
@@ -26,7 +34,7 @@ function getExp() {
       content: 'This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information'
     },
     {
-      id: 4,
+      id: 5,
       duration: '01/2012-01/2014',
       organization: 'N/A',
       address: '',
