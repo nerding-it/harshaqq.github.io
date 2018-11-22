@@ -21,7 +21,7 @@ import { EVENT_GET_SUMMARY, EVENT_GOT_SUMMARY } from '../constants'
    }   
   </style>
   <div class="jumbotron jumbotron-fluid bg-transparent">
-    <div class="container">
+    <div class="container" if={summary}>
       <img class="mb-3" src={summary.profile}/>
       <h4 class="text-center"> { summary.name } </h4>
       <h5 class="text-center"> { summary.role } </h5>
